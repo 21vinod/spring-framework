@@ -1,6 +1,7 @@
-package com.vinod.learn_spring_framework;
+package com.vinod.learnspringframework.game;
 
-public class PacMan implements GamingConsole{
+public class SuperContra implements GamingConsole{
+
     public void up(){
         System.out.println("Jump");
     }
@@ -14,4 +15,5 @@ public class PacMan implements GamingConsole{
     public void right(){
         System.out.println("forward");
     }
+
 }

@@ -1,4 +1,4 @@
-package com.vinod.learn_spring_framework;
+package com.vinod.learnspringframework.game;
 
 public class MarioGame implements GamingConsole{
 

@@ -1,4 +1,4 @@
-package com.vinod.learn_spring_framework;
+package com.vinod.learnspringframework.game;
 
 public class GameRunner {
     GamingConsole game;
@@ -8,6 +8,6 @@ public class GameRunner {
     }
 
     public void run() {
-        System.out.println("Running game:"+game.getClass().getName());
+        System.out.println("Running game: "+game.getClass().getName());
     }
 }
